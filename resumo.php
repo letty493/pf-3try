@@ -21,7 +21,7 @@
 		die("Erro na conexão: " . $conexao->connect_error);
 	}
 
-	$sql = "SELECT * FROM sua_tabela";
+	$sql = "SELECT * FROM pessoa";
 	$resultado = $conexao->query($sql);
 
 	if ($resultado) {
