@@ -32,10 +32,10 @@
 
 		// ... (código de conexão mysqli) ...
 
-		$nome = $_POST["nome"];
-		$cpf = $_POST["cpf"];
-		$celular = $_POST["celular"];
-		$email = $_POST["email"];
+		$nome = $_POST["Nome"];
+		$cpf = $_POST["CPF"];
+		$celular = $_POST["Celular"];
+		$email = $_POST["Email"];
 		
 		$sql = "INSERT INTO pessoa VALUES ('$nome','$cpf','$celular','$email')";
 
