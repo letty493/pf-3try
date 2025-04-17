@@ -47,7 +47,7 @@
 
 		// ... (código de conexão) ...
 
-		$sql = "SELECT * FROM sua_tabela";
+		$sql = "SELECT * FROM pessoa";
 		$resultado = $conexao->query($sql);
 
 		if ($resultado) {
