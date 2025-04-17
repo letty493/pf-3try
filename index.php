@@ -37,7 +37,7 @@
 		$celular = $_POST["Celular"];
 		$email = $_POST["Email"];
 		
-		$sql = "INSERT INTO pessoa VALUES ('$nome','$cpf','$celular','$email')";
+		$sql = "INSERT INTO pessoa (nome, cpf, celular, email) VALUES ('$nome','$cpf','$celular','$email')";
 
 		if ($conexao->query($sql) === TRUE) {
 			echo "Novo registro inserido com sucesso!";
